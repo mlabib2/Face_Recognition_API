@@ -76,10 +76,12 @@ function drawKeypoints() {
 
       if (j === 8) {
         ellipse(keypoint[0], keypoint[1], 10, 10); // Draw index finger
+        ellipse(keypoint[0]+700, keypoint[1], 10, 10);
       }
 
       if (j === 4) {
         ellipse(keypoint[0], keypoint[1], 10, 10); // Draw thumb
+        ellipse(keypoint[0]+ 700, keypoint[1], 10, 10); // Draw thumb
       }
     }
   }
